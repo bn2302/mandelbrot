@@ -210,7 +210,5 @@ fn main() {
         });
     }
 
-
-
     write_image(&args[1], &pixels, bounds).expect("error writing PNG file");
 }
